@@ -3,8 +3,9 @@ export class Course {
   name!: string;
   imageUrl: string | undefined;
   price!: number;
-  code!: String;
+  code!: string;
   duration!: number;
   rating!: number;
   release!: string;
+  description!: string;
 }
