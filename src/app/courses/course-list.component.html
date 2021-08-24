@@ -21,7 +21,7 @@
     <td>{{ course.name }} </td>
     <td>{{course.price }}</td>
     <td>{{ course.code | ReplacePipe : '-': ' '}}</td>
-    <td>{{course.release | date: 'dd/MM/yyyy' }}</td>
+    <td>{{course.releaseDate | date: 'dd/MM/yyyy' }}</td>
     <td>
       <app-star [rating] = "course.rating"></app-star>
     </td>
